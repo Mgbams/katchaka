@@ -1,0 +1,186 @@
+@charset "ISO-8859-1";
+
+:root {
+	--pink: #e83e8c;
+	--blue: #007bff;
+	--info: #17a2b8;
+	--success: #28a745;
+	--cyan: #17a2b8;
+}
+
+h2 {
+	color: var(--success);
+	font-weight: 400 !important;
+}
+
+.card-inscription, .connexion-body-wrapper {
+	border-right: 2px inset var(--pink);
+	border-bottom: 2px inset var(--blue);
+	border-left: 2px inset var(--pink);
+	border-top: 2px inset var(--blue);
+}
+
+.round-circle {
+	width: 170px;
+	height: 170px;
+	border-radius: 50%;
+	position: absolute;
+}
+
+.circle-1 {
+	background-color: var(--pink);
+	top: 39vh;
+	z-index: 6;
+	left: 4.7vw;
+}
+
+.circle-2 {
+	background-color: var(--info);
+	left: 14vw;
+	top: 35vh;
+	z-index: 5;
+}
+
+.circle-3 {
+	background-color: var(--success);
+}
+.header-div {
+	padding: 5px 20px;
+	border-bottom: 3px solid blue;
+}
+
+.body-contents-wrapper>div {
+	width: 50%;
+}
+
+.btn {
+	border-radius: 25px;
+}
+
+.genre-container {
+	width: 80%;
+	margin: 0px auto;
+	padding: 0px 25px;
+}
+
+.card-inscription {
+	width: 70%;
+	margin: 0px auto;
+}
+
+.toPageIndex {
+	text-decoration: none;
+}
+
+.bi-arrow-left-circle {
+	font-size: 26px !important;
+}
+
+.errorMessages, .loginError {
+	color: red;
+	margin-top: -30px !important;
+	display: inline-block;
+}
+
+.img-profile {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+}
+
+.katchaka-title {
+	font-size: 24px;
+}
+
+.pseudo-button, .ville-button, .statut-button {
+	background: none !important;
+	border: none;
+	padding: 0 !important;
+	font-family: arial, sans-serif;
+	color: #069;
+	cursor: pointer;
+}
+
+.global-filtre-container {
+	width: 100%;
+	border-top: 1px solid #dee2e6;
+	border-bottom: 1px solid #dee2e6;
+	padding: 15px 0px;
+}
+
+.ville-filtres {
+	width: 65%;
+}
+
+.filtres-interets, .filtres {
+	width: 20%;
+}
+
+.buttonDeNavigation {
+	width: 30vw !important;
+}
+
+/* profile*/
+.profileTitleInfo {
+	width: 50vw;
+}
+
+.inviterDeProfile {
+	width: 20vw;
+}
+
+.profile-bio {
+	width: 70%;
+}
+
+.profile-image-img {
+	width: 100%;
+	height: 50vh;
+	border-radius: 25px;
+	background-size: cover;         
+    background-repeat: no-repeat;
+    background-position: center center; 
+}
+
+.card-img-top {
+	padding: 50px 80px;
+	background-color: var(--pink);
+	border-radius: 10px;
+}
+
+.genre-nom {
+	color: var(--cyan);
+	font-size: 20px;
+}
+
+.bi-house-door {
+	font-size: 25px;
+	color: var(--pink);
+}
+
+.home-button {
+	font-size: 20px;
+	color: var(--success);
+}
+
+.home-button:hover {
+	text-decoration: none;
+}
+
+.accueil-description {
+	font-size: 20px;
+	color: var(--blue);
+	font-weight: 600;
+}
+
+.title-page-connexion {
+	font-size: 22px;
+	color: var(--success);
+	font-weight: 500;
+}
+
+.header-page-connexion {
+	font-size: 23px;
+	color: var(--blue);
+	font-weight: 500;
+}
